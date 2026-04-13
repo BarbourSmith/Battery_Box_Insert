@@ -1218,9 +1218,45 @@
         },
         {
           "name": "height",
-          "ioValue": 12
+          "ioValue": 0.5,
+          "currentEquation": ".5"
         }
       ]
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.7235449735449735,
+      "y": 0.6629526462395543,
+      "uniqueID": "id-348",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Battery_Box_Insert",
+          "currentEquation": "Battery_Box_Insert"
+        }
+      ],
+      "partName": "Battery_Box_Insert",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -1243,6 +1279,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-340",
       "ap2ID": "id-344"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-344",
+      "ap2ID": "id-183"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-344",
+      "ap2ID": "id-348"
     }
   ],
   "unitsKey": "Inches",
